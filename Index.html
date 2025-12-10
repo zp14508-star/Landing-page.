@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>PixelCraft — Web Design Studio</title>
+  <link rel="stylesheet" href="Styling.css"></link>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav" role="navigation" aria-label="Main navigation">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">PC</div>
+        <div>
+          <h1 style="font-size:0.95rem;margin:0">PixelCraft</h1>
+          <div class="muted" style="font-size:.78rem;margin-top:2px">Web Design Studio</div>
+        </div>
+      </div>
+
+      <nav aria-label="Primary">
+        <button class="mobile-menu-btn" id="menuToggle" aria-expanded="false" aria-controls="primaryNav">☰</button>
+        <ul id="primaryNav">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+      </nav>
+
+      <div style="display:flex;gap:10px;align-items:center">
+        <a class="btn btn-ghost" href="#contact">Contact</a>
+        <button class="btn cta-primary" id="getQuoteBtn">Get a Free Quote</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="container hero" aria-labelledby="hero-heading">
+      <div class="hero-inner">
+        <div class="eyebrow">Modern Web Design • E-commerce • SEO</div>
+        <h2 id="hero-heading">Build stunning websites that convert customers</h2>
+        <p class="lead">PixelCraft designs responsive, fast, and conversion-focused websites custom-built for your brand. From lead-generating landing pages to full e-commerce stores — we handle design, development & SEO.</p>
+
+        <div class="hero-ctas">
+          <button class="btn cta-primary" id="primaryCTA">Get a Free Quote</button>
+          <a class="btn btn-ghost" href="#portfolio">View Portfolio</a>
+        </div>
+
+        <div style="display:flex;gap:12px;margin-top:6px;align-items:center">
+          <div class="kicker pill">5-day launch</div>
+          <div class="muted" style="margin-left:8px">Start with a free consultation — no obligations</div>
+        </div>
+
+      </div>
+
+      <!-- Quick stats / trust -->
+      <aside aria-label="Trust stats" class="text-center" style="padding:18px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));">
+        <div style="display:flex;gap:12px;flex-direction:column;align-items:center;">
+          <div style="display:flex;gap:12px;align-items:center">
+            <div style="text-align:center">
+              <div style="font-size:1.3rem;font-weight:800;color:#0e0d0d">120+</div>
+              <div class="muted">Projects Delivered</div>
+            </div>
+            <div style="text-align:center">
+              <div style="font-size:1.3rem;font-weight:800;color:#0e0d0d">40%</div>
+              <div class="muted">Avg conversion lift</div>
+            </div>
+            <div style="text-align:center">
+              <div style="font-size:1.3rem;font-weight:800;color:#0e0d0d">4.9/5</div>
+              <div class="muted">Client satisfaction</div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
+    <section>
+    <div style="margin-top:14px; display: flex; justify-content: center;">
+          <div class="mockup" aria-hidden="true">
+            <div class="screens" role="img" aria-label="Example website screenshots">
+              <div class="screen" style="background:linear-gradient(180deg,#dedada,#f9fafb);display:flex;align-items:center;justify-content:center;">
+                <div style="padding:12px;text-align:center;color:#0b1220;font-weight:700">Landing Page</div>
+              </div>
+              <div class="screen alt" style="background:linear-gradient(180deg,#d6d3d3,#f7fbff);display:flex;align-items:center;justify-content:center;">
+                <div style="padding:12px;text-align:center;color:#0b1220;font-weight:700">E-commerce</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Services -->
+    <section id="services" aria-labelledby="services-heading" class="container">
+      <div class="section-head">
+        <div class="kicker">SERVICES</div>
+        <h3 id="services-heading">We design modern websites that convert</h3>
+        <p>Design, development and growth services tailored to help your business grow online.</p>
+      </div>
+
+      <div class="services-grid" role="list">
+        <article class="service-card" role="listitem">
+          <h4>Custom Website Design</h4>
+          <p>Create a unique brand-forward design with conversion-focused UX and fast performance.</p>
+        </article>
+        <article class="service-card" role="listitem">
+          <h4>E-Commerce Stores</h4>
+          <p>Secure stores with payment integration, inventory, and a smooth shopper experience.</p>
+        </article>
+        <article class="service-card" role="listitem">
+          <h4>Landing Pages & Funnels</h4>
+          <p>High-converting landing pages for campaigns and ads — optimized for speed and clarity.</p>
+        </article>
+        <article class="service-card" role="listitem">
+          <h4>SEO & Performance</h4>
+          <p>Improve load times, on-page SEO and technical foundations to help you rank and convert.</p>
+        </article>
+        <article class="service-card" role="listitem">
+          <h4>Website Redesign</h4>
+          <p>Modernize your existing site with a full redesign and content strategy for better conversions.</p>
+        </article>
+        <article class="service-card" role="listitem">
+          <h4>Maintenance & Support</h4>
+          <p>Ongoing support, monitoring, backups and updates so your site stays fast and secure.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" aria-labelledby="portfolio-heading" class="container">
+      <div class="section-head">
+        <div class="kicker">PORTFOLIO</div>
+        <h3 id="portfolio-heading">Selected work</h3>
+        <p>Hand-picked projects showing design and results.</p>
+      </div>
+
+      <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-bottom:12px">
+        <button class="pill" data-filter="all">All</button>
+        <button class="pill" data-filter="startup">Startup</button>
+        <button class="pill" data-filter="ecom">E-commerce</button>
+        <button class="pill" data-filter="restaurant">Restaurant</button>
+      </div>
+
+      <div class="portfolio-grid" id="portfolioGrid" role="list">
+        <article class="project" data-category="startup" role="listitem">
+          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Startup landing example">
+          <div class="meta">Startup Landing</div>
+        </article>
+        <article class="project" data-category="ecom" role="listitem">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="E-commerce store example">
+          <div class="meta">E-commerce Store</div>
+        </article>
+        <article class="project" data-category="restaurant" role="listitem">
+          <img src="https://tse3.mm.bing.net/th/id/OIP.ZpZouDZXYA7-_JKkECj8QwHaEc?cb=ucfimg2ucfimg=1&w=6400&h=3840&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Restaurant site example">
+          <div class="meta">Restaurant Website</div>
+        </article>
+        <article class="project" data-category="startup" role="listitem">
+          <img src="https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Personal portfolio example">
+          <div class="meta">Personal Portfolio</div>
+        </article>
+        <article class="project" data-category="ecom" role="listitem">
+          <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Shop example">
+          <div class="meta">Shop Design</div>
+        </article>
+        <article class="project" data-category="restaurant" role="listitem">
+          <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Cafe example">
+          <div class="meta">Cafe Landing</div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section aria-labelledby="process-heading" class="container">
+      <div class="section-head">
+        <div class="kicker">PROCESS</div>
+        <h3 id="process-heading">Our simple 4-step process</h3>
+        <p>Designed to reduce friction and get you live fast with measurable results.</p>
+      </div>
+
+      <div class="process">
+        <div class="steps" role="list">
+          <div class="step" role="listitem"><div class="kicker">1</div><h4>Discovery</h4><p class="muted">Kickoff & target definition</p></div>
+          <div class="step" role="listitem"><div class="kicker">2</div><h4>Design</h4><p class="muted">Wireframes & UI preview</p></div>
+          <div class="step" role="listitem"><div class="kicker">3</div><h4>Build</h4><p class="muted">Development & QA</p></div>
+          <div class="step" role="listitem"><div class="kicker">4</div><h4>Launch</h4><p class="muted">Deploy & handover</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" aria-labelledby="pricing-heading" class="container">
+      <div class="section-head">
+        <div class="kicker">PRICING</div>
+        <h3 id="pricing-heading">Simple, transparent pricing</h3>
+        <p>Choose a plan or contact us for a custom quote.</p>
+      </div>
+
+      <div class="pricing-grid" role="list">
+        <article class="plan" role="listitem">
+          <h4>Starter</h4>
+          <div class="price">₹4,999</div>
+          <p class="muted">3 pages • Mobile responsive • Basic SEO</p>
+          <div style="margin-top:12px">
+            <button class="btn cta-primary">Select</button>
+          </div>
+        </article>
+
+        <article class="plan" role="listitem">
+          <h4>Business</h4>
+          <div class="price">₹12,999</div>
+          <p class="muted">6–8 pages • Custom UI • SEO-ready • Speed optimized</p>
+          <div style="margin-top:12px">
+            <button class="btn cta-primary">Select</button>
+          </div>
+        </article>
+
+        <article class="plan" role="listitem">
+          <h4>E-commerce</h4>
+          <div class="price">₹24,999</div>
+          <p class="muted">Product catalog • Payments • Admin dashboard</p>
+          <div style="margin-top:12px">
+            <button class="btn cta-primary">Select</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" aria-labelledby="testimonials-heading" class="container">
+      <div class="section-head">
+        <div class="kicker">TESTIMONIALS</div>
+        <h3 id="testimonials-heading">What our clients say</h3>
+      </div>
+
+      <div class="testimonials" role="list">
+        <blockquote class="testimonial" role="listitem">
+          <p style="margin:0 0 8px">“PixelCraft redesigned our site — conversions increased 40% within two months. The team was excellent.”</p>
+          <footer class="muted">— Ritu Sharma, Founder • Cafe Bloom</footer>
+        </blockquote>
+        <blockquote class="testimonial" role="listitem">
+          <p style="margin:0 0 8px">“Fast delivery and great communication. Highly recommended for startups.”</p>
+          <footer class="muted">— Karan Mehta, CEO • FinStart</footer>
+        </blockquote>
+        <blockquote class="testimonial" role="listitem">
+          <p style="margin:0 0 8px">“We launched an online store and the sales flow is smooth. Support is reliable.”</p>
+          <footer class="muted">— Anjali Verma, E-commerce Manager</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section aria-labelledby="faq-heading" class="container">
+      <div class="section-head">
+        <div class="kicker">FAQ</div>
+        <h3 id="faq-heading">Frequently asked questions</h3>
+      </div>
+
+      <div style="display:grid;gap:10px;max-width:900px;margin:0 auto">
+        <div class="faq-item" tabindex="0" data-toggle>
+          <div>
+            <strong>How long does a website take?</strong>
+            <p class="muted" style="margin-top:6px">Typical timelines are 5–14 days depending on scope.</p>
+          </div>
+          <div aria-hidden="true">+</div>
+        </div>
+        <div class="faq-body muted">After kickoff we deliver wireframes in 48–72 hours. Exact timeline depends on pages and integrations.</div>
+
+        <div class="faq-item" tabindex="0" data-toggle>
+          <div>
+            <strong>Do you offer maintenance?</strong>
+            <p class="muted" style="margin-top:6px">Yes — monthly or annual support plans are available.</p>
+          </div>
+          <div aria-hidden="true">+</div>
+        </div>
+        <div class="faq-body muted">Support plans include updates, backups and monitoring.</div>
+
+        <div class="faq-item" tabindex="0" data-toggle>
+          <div>
+            <strong>Can you redesign our existing site?</strong>
+            <p class="muted" style="margin-top:6px">Absolutely — we work with most platforms and can migrate content.</p>
+          </div>
+          <div aria-hidden="true">+</div>
+        </div>
+        <div class="faq-body muted">We handle migration, SEO preservation and testing before launch.</div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="container">
+      <div class="final-cta" role="region" aria-label="Final call to action">
+        <div>
+          <h4>Ready to build your dream website?</h4>
+          <p class="muted">Start with a free project quote and strategy call.</p>
+        </div>
+        <div style="display:flex;gap:10px;align-items:center">
+          <button class="btn cta-primary" id="quoteCTA">Get a Free Quote</button>
+          <a class="btn btn-ghost" href="#contact">Chat with us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4 style="margin:0">PixelCraft</h4>
+        <p class="muted" style="margin-top:8px">Designing beautiful, high-converting websites for businesses and creators.</p>
+        <p class="muted" style="margin-top:12px">© <span id="year"></span> PixelCraft. All rights reserved.</p>
+      </div>
+
+      <div>
+        <h5 style="margin:0 0 8px">Services</h5>
+        <ul style="list-style:none;padding:0;margin:0" class="muted">
+          <li>Custom design</li>
+          <li>E-commerce</li>
+          <li>Landing pages</li>
+        </ul>
+      </div>
+
+      <div>
+        <h5 style="margin:0 0 8px">Contact</h5>
+        <p class="muted" style="margin:0">hello@pixelcraft.example</p>
+        <p class="muted" style="margin:6px 0 0">+91 9XXXXXXXXX</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal: Quote -->
+<div id="quoteModal" class="hidden flex" role="dialog" aria-modal="true" aria-labelledby="quoteTitle"
+     style="position:fixed;inset:0;align-items:center;justify-content:center;padding:24px;z-index:90;">
+     <div id="quoteBackdrop" style="position:absolute; inset:0; background:linear-gradient(180deg,rgba(1,6,23,0.6),rgba(1,6,23,0.8)); backdrop-filter:blur(6px)"></div>
+    <div style="position:relative;max-width:720px;width:100%;background:#fff;color:#071028;border-radius:16px;padding:20px;box-shadow:0 30px 80px rgba(2,6,23,0.6)">
+      <h3 id="quoteTitle" style="margin:0 0 8px">Get a free quote</h3>
+      <p class="muted" style="margin:0 0 14px">Tell us a few details and we'll get back within one business day.</p>
+      <form id="quoteForm" style="display:grid;gap:10px">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+          <input name="name" required placeholder="Your name" style="padding:10px;border-radius:8px;border:1px solid rgba(2,6,23,0.06)" />
+          <input name="email" type="email" required placeholder="Email" style="padding:10px;border-radius:8px;border:1px solid rgba(2,6,23,0.06)" />
+        </div>
+        <input name="company" placeholder="Company (optional)" style="padding:10px;border-radius:8px;border:1px solid rgba(2,6,23,0.06)" />
+        <textarea name="notes" rows="4" placeholder="Project details & timeline" style="padding:10px;border-radius:8px;border:1px solid rgba(2,6,23,0.06)"></textarea>
+        <div style="display:flex;gap:10px;justify-content:flex-end">
+          <button type="button" id="closeModal" class="btn btn-ghost">Cancel</button>
+          <button type="submit" class="btn cta-primary">Send request</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+  // Year in footer
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  // Mobile menu
+  const menuToggle = document.getElementById("menuToggle");
+  const primaryNav = document.getElementById("primaryNav");
+  if (menuToggle) {
+    menuToggle.addEventListener("click", () => {
+      const expanded = menuToggle.getAttribute("aria-expanded") === "true";
+      menuToggle.setAttribute("aria-expanded", !expanded);
+      primaryNav.style.display = expanded ? "" : "block";
+    });
+  }
+
+  const quoteModal = document.getElementById("quoteModal");
+const quoteBackdrop = document.getElementById("quoteBackdrop");
+const closeModalBtn = document.getElementById("closeModal");
+const quoteForm = document.getElementById("quoteForm");
+
+// Open buttons
+["getQuoteBtn", "primaryCTA", "quoteCTA"].forEach(id => {
+  const btn = document.getElementById(id);
+  if (btn) btn.addEventListener("click", () => {
+    quoteModal.classList.remove("hidden");
+  });
+});
+
+// Close modal function
+function closeModal() {
+  quoteModal.classList.add("hidden");
+}
+
+// Cancel button
+closeModalBtn.addEventListener("click", closeModal);
+
+// CLICKING THE BACKDROP (THIS IS THE FIX)
+quoteBackdrop.addEventListener("click", closeModal);
+
+// ESCAPE KEY
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") closeModal();
+});
+
+// Submit closes modal
+quoteForm.addEventListener("submit", e => {
+  e.preventDefault();
+  alert("Thanks! Your quote request has been sent.");
+  quoteForm.reset();
+  closeModal();
+});
+
+  /* ---------------------------
+     FAQ TOGGLES
+  ---------------------------- */
+  document.querySelectorAll("[data-toggle]").forEach(el => {
+    const body = el.nextElementSibling;
+    el.addEventListener("click", () => {
+      const visible = body.style.display === "block";
+      document.querySelectorAll(".faq-body").forEach(b => (b.style.display = ""));
+      body.style.display = visible ? "" : "block";
+    });
+    el.addEventListener("keypress", ev => {
+      if (ev.key === "Enter" || ev.key === " ") el.click();
+    });
+  });
+
+  /* ---------------------------
+     PORTFOLIO FILTER
+  ---------------------------- */
+  document.querySelectorAll("[data-filter]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const filter = btn.getAttribute("data-filter");
+      document.querySelectorAll("#portfolioGrid .project").forEach(p => {
+        p.style.display = filter === "all" || p.dataset.category === filter ? "" : "none";
+      });
+    });
+  });
+
+  /* ---------------------------
+     BASIC FOCUS TRAP
+  ---------------------------- */
+  const focusable = "button, [href], input, textarea, [tabindex]:not([tabindex='-1'])";
+  function trapFocus(modal) {
+    modal.addEventListener("keydown", e => {
+      if (modal.classList.contains("hidden")) return;
+      if (e.key !== "Tab") return;
+
+      const items = modal.querySelectorAll(focusable);
+      if (!items.length) return;
+
+      const first = items[0];
+      const last = items[items.length - 1];
+
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    });
+  }
+  trapFocus(quoteModal);
+</script>
+</body>
+</html>
